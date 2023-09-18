@@ -4,6 +4,7 @@
   --bold-color: #150e28;
   --soft-color: #903aff;
   --light-color: #d434fe;
+  --white-color: #ffffff;
 }
 
 /* Normalization */
@@ -14,4 +15,38 @@ html,
   padding: 0;
   margin: 0;
   font-size: calc(16px + 0.0339vw);
+}
+
+body {
+  background-color: var(--bold-color);
+}
+
+/* Global style */
+.column-width {
+  width: 93%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.flex-space-btw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btn-primary {
+  padding: 1rem 1.5rem 1.1rem 1.5rem;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+
+  color: var(--white-color);
+  border: none;
+  outline: none;
+  border-radius: 4px;
 }
