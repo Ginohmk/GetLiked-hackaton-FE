@@ -2,8 +2,9 @@ import styled from 'styled-components';
 import BannerBg from '../../assets/images/banner-bg-image.png';
 
 export const BannerContainer = styled.section`
-  height: 88vh;
+  /* height: 90vh; */
   overflow-y: hidden;
+  margin-bottom: -7.5px;
 
   .banner-header-container {
     position: relative;
@@ -101,7 +102,7 @@ export const BannerContainer = styled.section`
         .banner-timer-container {
           color: var(--white-color);
           display: flex;
-          gap: 0.7rem;
+          gap: 1.15rem;
 
           .banner-timer-item {
             .timer {
@@ -123,6 +124,6 @@ export const BannerContainer = styled.section`
     background-image: url(${BannerBg});
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 100% 100%;
+    background-position: 100% 200%;
   }
 `;
