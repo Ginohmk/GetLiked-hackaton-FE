@@ -5,13 +5,6 @@ export const NavBarContainer = styled.section`
 
   h2 {
     font-size: 1.85rem;
-
-    .first-child {
-      color: var(--white-color);
-    }
-    .second-child {
-      color: var(--light-color);
-    }
   }
 
   .nav-left-container {

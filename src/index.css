@@ -14,11 +14,14 @@ html,
 *::after {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   font-size: calc(16px + 0.0339vw);
 }
 
 body {
   background-color: var(--bold-color);
+  width: 100%;
+  box-sizing: inherit;
 }
 
 /* Global style */
@@ -49,4 +52,11 @@ body {
   border: none;
   outline: none;
   border-radius: 4px;
+}
+
+.first-child-text {
+  color: var(--white-color);
+}
+.second-child-text {
+  color: var(--light-color);
 }

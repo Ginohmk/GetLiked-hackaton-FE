@@ -5,8 +5,8 @@ export const NavBar: React.FC = () => {
   return (
     <NavBarContainer className="column-width flex-space-btw">
       <h2>
-        <span className="first-child">get</span>
-        <span className="second-child">linked</span>
+        <span className="first-child-text">get</span>
+        <span className="second-child-text">linked</span>
       </h2>
 
       <section className="nav-left-container flex-space-btw">
