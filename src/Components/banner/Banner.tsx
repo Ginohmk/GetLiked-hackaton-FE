@@ -4,6 +4,7 @@ import Chain from '../../assets/images/banner-chain.svg';
 import BrightStar from '../../assets/images/banner-star.svg';
 import BentLine from '../../assets/images/banner-bent-line.svg';
 import Bulb from '../../assets/images/banner-bulb.svg';
+import BlinkStar from '../../assets/images/baner-blink-star.svg';
 
 const Banner = () => {
   return (
@@ -20,6 +21,11 @@ const Banner = () => {
       <div className="banner-inner-container">
         <div className=" column-width">
           <div className="banner-left-side-container">
+            <img
+              src={BlinkStar}
+              alt="banner blinking star"
+              className="banner-blick-star"
+            />
             <div className="banner-heading">
               <div>
                 <img src={Bulb} alt="bulb icon" className="banner-blub-img" />

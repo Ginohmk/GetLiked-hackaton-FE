@@ -4,7 +4,7 @@ export const NavBarContainer = styled.section`
   padding: 1rem 0;
 
   h2 {
-    font-size: 1.85rem;
+    font-size: 2.2rem;
   }
 
   .nav-left-container {

@@ -11,6 +11,8 @@ const HomePage: React.FC = () => {
       <hr className="home-line" />
 
       <Banner />
+
+      <hr className="home-line" />
     </HomepageContainer>
   );
 };

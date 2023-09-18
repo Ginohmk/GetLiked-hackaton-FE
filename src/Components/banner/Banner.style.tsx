@@ -35,8 +35,15 @@ export const BannerContainer = styled.section`
       display: flex;
       flex-direction: column;
       justify-content: center;
+      position: relative;
 
       padding-left: 1.5rem;
+
+      .banner-blick-star {
+        position: absolute;
+        left: 4.5rem;
+        top: 0;
+      }
 
       .banner-heading {
         font-size: 5.4rem;
@@ -115,7 +122,7 @@ export const BannerContainer = styled.section`
     height: 650px;
     background-image: url(${BannerBg});
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 60% 100%;
+    background-size: 100%;
+    background-position: 100% 100%;
   }
 `;
