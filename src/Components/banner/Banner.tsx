@@ -77,7 +77,3 @@ const Banner = () => {
 };
 
 export default Banner;
-
-{
-  /* <img src={BannerBg} alt="Banner piture" /> */
-}

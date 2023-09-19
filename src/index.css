@@ -15,13 +15,23 @@ html,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: calc(14px + 0.0339vw);
+  font-size: calc(16px + 0.0339vw);
 }
 
 body {
   background-color: var(--bold-color);
   width: 100%;
   box-sizing: inherit;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
 }
 
 /* Global style */

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const NavBarContainer = styled.section`
-  padding: 1rem 0;
+  padding: 3rem 0;
 
   h2 {
     font-size: 2.2rem;
@@ -15,13 +15,14 @@ export const NavBarContainer = styled.section`
       display: flex;
       align-items: center;
       gap: 1.5rem;
-
-      .selected {
+      li {
+        font-size: 1.2rem;
       }
     }
 
     .nav-btn {
       width: 172px;
+      font-size: 1.15rem;
     }
   }
 `;
