@@ -19,7 +19,6 @@ export const BannerContainer = styled.section`
       display: flex;
       align-items: center;
       justify-content: flex-end;
-      margin-top: -25px;
       padding-right: 1.3rem;
       img {
         position: absolute;
@@ -36,6 +35,7 @@ export const BannerContainer = styled.section`
       display: flex;
       flex-direction: column;
       justify-content: center;
+      gap: 2rem;
       position: relative;
 
       padding-left: 1.5rem;
@@ -53,8 +53,8 @@ export const BannerContainer = styled.section`
 
         .banner-blub-img {
           position: absolute;
-          right: 120px;
-          top: -45px;
+          right: 9.3rem;
+          top: -2.5rem;
           z-index: 3;
         }
 
@@ -67,15 +67,18 @@ export const BannerContainer = styled.section`
           gap: 1rem;
 
           .banner-lower-heading-icons {
-            height: 65px;
-            width: 65px;
             display: flex;
             gap: 0.5rem;
-            align-self: flex-end;
+            align-self: center;
 
-            img {
-              width: 100%;
-              height: 100%;
+            .banner-lower-heading-icon-item {
+              height: 65px;
+              width: 65px;
+
+              img {
+                width: 100%;
+                height: 100%;
+              }
             }
           }
         }
@@ -97,6 +100,7 @@ export const BannerContainer = styled.section`
 
         .banner-btn {
           max-width: 172px;
+          font-size: 1.15rem;
         }
 
         .banner-timer-container {
@@ -124,6 +128,6 @@ export const BannerContainer = styled.section`
     background-image: url(${BannerBg});
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 100% 200%;
+    background-position: 100% 180%;
   }
 `;

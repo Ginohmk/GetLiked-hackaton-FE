@@ -38,8 +38,12 @@ const Banner = () => {
                 </div>
 
                 <div className="banner-lower-heading-icons">
-                  <img src={Chain} alt="Chain icon" />
-                  <img src={BrightStar} alt="Chain icon" />
+                  <div className="banner-lower-heading-icon-item">
+                    <img src={Chain} alt="Chain icon" />
+                  </div>
+                  <div className="banner-lower-heading-icon-item">
+                    <img src={BrightStar} alt="Chain icon" />
+                  </div>
                 </div>
               </div>
             </div>
